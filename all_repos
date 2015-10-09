@@ -1,0 +1,28 @@
+all_repos () {
+    repo_1="/home/desarrollo/smarthouse/repo_1"
+    repo_2="/home/desarrollo/smarthouse/repo_2"
+    repo_3="/home/desarrollo/smarthouse/repo_3"
+    repo_4="/home/desarrollo/smarthouse/repo_4"
+    repo_5="/home/desarrollo/smarthouse/repo_5"
+
+    cd $repo_1
+    echo "Executing: $1 on $repo_1"
+    $1
+
+    cd $repo_2
+    echo "Executing: $1 on $repo_2"
+    $1
+
+    cd $repo_3
+    echo "Executing: $1 on $repo_3"
+    $1
+
+    cd $repo_4
+    echo "Executing: $1 on $repo_4"
+    $1
+
+    cd $repo_5
+    echo "Executing: $1 on $repo_5"
+    $1
+
+}
