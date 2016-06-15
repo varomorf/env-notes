@@ -1,0 +1,26 @@
+[user]
+        name = Alvaro Fernández González
+        email = 
+[core]
+        autocrlf = true
+        filemode = false
+[push]
+        default = simple
+[gui]
+        encoding = utf-8
+        recentrepo = C:/entorno/projects/dia_e-commerce
+        recentrepo = C:/cygwin64/home/Alvaro.Fernandez/prueba
+[merge]
+        tool = kdiff3
+[mergetool "kdiff3]
+        path = /c/entorno/KDiff3/kdiff3.exe
+        keepBackup = false
+        trustExitCode = false
+[diff]
+        guitool = kdiff3
+[difftool]
+        prompt = false
+[difftool "kdiff3]                   
+        path = /c/entorno/KDiff3/kdiff3.exe
+        trustExitCode = false
+        keepBackup = false
